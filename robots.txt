@@ -1,0 +1,4 @@
+user-agent: *
+Allow: /
+
+Sitemap: https://jabulani1250.github.io/WEDE5020/sitemap.xml
