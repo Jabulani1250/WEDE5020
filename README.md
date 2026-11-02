@@ -17,3 +17,9 @@ added logo, navigation, website content
 Added css to the website and styled it. The navigation was styled to look nice and the logo as well.
 Added a footer to the website pages.
 The footer have links to go to other pages on the website like about page, contact, home and products page.
+Added JavaScript to the project to help validate the HTML form.
+Added HTML form on order online page.
+Added an interactive map on contact us page.
+Added sitemap.xml for the site map.
+Added robots.txt.
+Added SEO for the website with meta describtion
