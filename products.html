@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css_assets/style.css">
+    <meta name="description" content="Jabu's Bakery have the best cupcakes, bread and cookies in and around Pretoria">
     <title>Jabu's Bakery | Products</title>
 </head>
 <body> 
@@ -34,19 +36,19 @@
         <div class="product-container">
 
         <div class="product">
-            <img  src="_images/bread.jpg" alt="Freshly baked bread" width=""200" height="200">
+            <img  src="_images/bread.jpg" alt="Freshly baked bread" width=""200" height="200" class="lightbox-image">
             <h3>Bread</h3>
             <p>R15.00</p>
         </div>
 
         <div class="product">
-            <img src ="_images/Banana_bread.jpg" alt="Banana bread" width="200" height="200">
+            <img src ="_images/Banana_bread.jpg" alt="Banana bread" width="200" height="200" class="lightbox-image">
             <h3>Banana Bread</h3>
             <p>R20.00</p>
         </div>
 
         <div class="product">
-            <img src="_images/Garlic_bread.jpg" alt="Garlic bread" width="200" height="200">
+            <img src="_images/Garlic_bread.jpg" alt="Garlic bread" width="200" height="200" class="lightbox-image">
             <h3>Garlic Bread</h3>
             <p>R18.00</p>
         </div>
@@ -62,19 +64,19 @@
         <div class="product-container">
 
         <div class="product">
-            <img src="_images/Chocolate_cupcake.jpg" alt="Chocolate cupcake" width="200" height="200">
+            <img src="_images/Chocolate_cupcake.jpg" alt="Chocolate cupcake" width="200" height="200" class="lightbox-image">
             <h3>Chocolate Cupcake</h3>
             <p>R5.00</p>
         </div>
 
         <div class="product">
-            <img src="_images/Vanilla_cupcake.jpg" alt="Vanilla cupcake" width="200" height="200">
+            <img src="_images/Vanilla_cupcake.jpg" alt="Vanilla cupcake" width="200" height="200" class="lightbox-image">
             <h3>Vanilla Cupcake</h3>
             <p>R5.00</p>
         </div>
 
         <div class="product">
-            <img src="_images/Banana_cupcake.jpg" alt="Banana cupcake" width="200" height="200">
+            <img src="_images/Banana_cupcake.jpg" alt="Banana cupcake" width="200" height="200" class="lightbox-image">
             <h3>Banana Cupcake</h3>
             <p>R5.00</p>
         </div>
@@ -87,24 +89,32 @@
         <div class="product-container">
 
         <div class="product">
-            <img src="_images/Chocolate_chip_cookies.jpg" alt="Chocolate chip cookies" width="200" height="200">
+            <img src="_images/Chocolate_chip_cookies.jpg" alt="Chocolate chip cookies" width="200" height="200"  class="lightbox-image">
             <h3>Chocolate Chip Cookies</h3> 
             <p>R3.00</p>
         </div>
 
         <div class="product">
-            <img src="_images/Peanut_butter_cookies.jpg" alt="Peanut butter cookies" width="200" height="200">
+            <img src="_images/Peanut_butter_cookies.jpg" alt="Peanut butter cookies" width="200" height="200" class="lightbox-image">
             <h3>Peanut Butter Cookies</h3>  
             <p>R3.00</p>
         </div>
 
         <div class="product">
-            <img src="_images/Ginger_cookies.jpg" alt="Ginger cookies" width="200" height="200">
+            <img src="_images/Ginger_cookies.jpg" alt="Ginger cookies" width="200" height="200" class="lightbox-image">
             <h3>Ginger Cookies</h3>
             <p>R3.00</p>
         </div>
         </div>
     </section>
+
+    <div id="product-lightbox" class="lightbox" aria-hidden="true">
+        <button class="lightbox-close" type="button">&times; </button>
+
+        <img id="lightbox-img" src="" alt="">
+        
+        <p id="lightbox-caption"></p>
+    </div>
 
      <footer class="footer">
 
@@ -135,6 +145,11 @@
                     <p>&copy; 2024 Jabu's Bakery. All rights reserved.</p>
                 </div>
             </footer>
+
+            <script src="js_assets/script.js"></script>
+
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
     
 </body>
 </html>
